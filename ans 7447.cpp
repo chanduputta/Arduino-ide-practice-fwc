@@ -37,10 +37,5 @@ void loop() {
   G=(!a&&!b&&!c)||(!a&&b&&c&&d);
   
 disp_7447(G,F,E,D,C,B,A);   
-/*W = digitalRead(6);//LSB  
-X = digitalRead(7);  
-Y = digitalRead(8);  
-Z = digitalRead(9);//MSB  
-disp_7447(Z,Y,X,W);  
-*/
+
 }
